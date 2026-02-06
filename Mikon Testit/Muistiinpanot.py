@@ -13,3 +13,20 @@ Sanakirja = dictionary
 
 import = pystyt tuoda tiedostoja, kuten matikka (math)
 
+while = #Asettaa toiston silmukka käyntiin, tarkoittaa ns. "kun".
+      = vänhän niinkuin kysyttäisiin "jatketaanko vielä?"
+if = #Määrittelyjoukko, jos asia X tapahtuu/on pienempi/tms niin... ":"
+elif = #"else if"
+else =
+
+: = lopettaa lauseen
+
+break =
+
+random.randint(2,10) =
+
+None =
+is None =
+
+
+
