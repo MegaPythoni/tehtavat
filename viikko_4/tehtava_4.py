@@ -71,19 +71,23 @@ while yritykset<5:
 else:
     print("Pääsy evätty")
 
-#Tehtävä 6
+#Tehtävä 6 (Kysy selitys tälle)!!
 print("Nyt luodaan algoritmi josta en tajunnut itsekään mitään, mutta sillä pitäisi selvitä pi:n likiarvo")
 
 import math
 import random
 pi = math.pi
 
-pisteet = int(input("Anna pisteiden määrä, jolla selvitän likiarvon"))
-ympyralaA = float((pi*1)**2)
-nelio_B_ala = (2*2)
-suhde = ympyralaA / nelio_B_ala
+N = int(input("Anna arvottavien pisteiden määrä"))
+n = 0
 
-while pisteet:
-    random.randint ((0, ympyralaA)*1000)
+for _ in range(N):
+    x = random.uniform(-1,1)
+    y = random.uniform(-1,1)
+    if x**2 +y**2 < 1:
+        n += 1
+pi_lukuarvo = 4 * n / N
+print ("Piin lukuarvo on",pi_lukuarvo)
+
 
 
