@@ -19,7 +19,7 @@ while True:
     if nimi in nimet:
         print("Aiemmin syötetty nimi.")
     else:
-        nimi.add(nimi)
+        nimet.add(nimi)
         print("Uusi nimi")
 print("\nSyötetyt nimet:")
 for nimi in nimet:
